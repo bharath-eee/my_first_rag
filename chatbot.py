@@ -375,4 +375,6 @@ if __name__ == "__main__":
         app.run(debug=False, port=5000)
     except Exception as e:
         logger.error(f"Failed to start Flask app: {str(e)}")
+
         raise
+        app.run(debug=False, port=5000)
